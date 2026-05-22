@@ -40,7 +40,6 @@ Product                  ← klasa abstrakcyjna
 | Zakresowa pętla `for` | iteracja po koszyku i straganie |
 | Przeciążanie operatorów | `operator<<`, `operator<` |
 | Obsługa wyjątków | `try-catch` przy błędnych danych i płatności |
-| Szablon klasy *(opcjonalne)* | `Stand<T>` — generyczny stragan |
  
 ---
  
@@ -53,7 +52,6 @@ Product                  ← klasa abstrakcyjna
 ├── Juice.h / .cpp            ← soki
 ├── Cart.h / .cpp             ← koszyk (Rule of Three)
 ├── Checkout.h / .cpp         ← kasa i paragon
-├── Stand.h                   ← szablon straganu
 ├── main.cpp                  ← demonstracja działania
 └── Makefile
 ```
