@@ -27,10 +27,6 @@ int main() {
         new Juice    ("Sok marchewkowy", 6.00, 15, "marchewka",  0.5),
     };
  
-    // Wypisanie asortymentu — zakresowa pętla for , operator<< 
-    std::cout << "--- Asortyment ---\n";
-    for (Product* p : stragan)
-        p->printLabel();
  
     // -------------------------------------------------------------------------
     // 2. Sortowanie po cenie — algorytm STL 
